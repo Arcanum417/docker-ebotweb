@@ -1,9 +1,9 @@
-docker-ebot
+docker-ebotweb
 ================
 
 [![](https://images.microbadger.com/badges/image/kaganus/ebotweb.svg)](https://microbadger.com/images/kaganus/ebotweb "Get your own image badge on microbadger.com")
 
-Dockerised eBot (https://github.com/kaganus/eBot-CSGO) for ease of use. 
+Dockerised eBot (https://github.com/kaganus/eBot-CSGO-Web) for ease of use. 
 
 Pre-Requisites
 --------------
