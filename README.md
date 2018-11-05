@@ -1,9 +1,9 @@
 docker-ebot
 ================
 
-[![](https://images.microbadger.com/badges/image/hsfactory/ebotweb.svg)](https://microbadger.com/images/hsfactory/ebotweb "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/kaganus/ebotweb.svg)](https://microbadger.com/images/kaganus/ebotweb "Get your own image badge on microbadger.com")
 
-Dockerised eBot (https://github.com/deStrO/eBot-CSGO) for ease of use. 
+Dockerised eBot (https://github.com/kaganus/eBot-CSGO) for ease of use. 
 
 Pre-Requisites
 --------------
@@ -70,6 +70,6 @@ Quick start
 
 Credits
 -------
-* jeff
+* repz (jffz)
 * carazzim0
 * destr0
