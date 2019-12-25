@@ -46,7 +46,7 @@ then
     sed -i "s|toornament_api_key:.*|toornament_api_key: ${TOORNAMENT_API_KEY}|" $EBOT_WEB_HOME/config/app_user.yml
     sed -i "s|toornament_plugin_key:.*|toornament_plugin_key: ${TOORNAMENT_PLUGIN_KEY}|" $EBOT_WEB_HOME/config/app_user.yml
     
-    printf "\nebot_ssl: $EBOT_SSL" >> $EBOT_WEB_HOME/config/app_user.yml
+    printf "\n  ebot_ssl: $EBOT_SSL\n" >> $EBOT_WEB_HOME/config/app_user.yml
 
     touch .installed
 fi
