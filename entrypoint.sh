@@ -4,6 +4,7 @@ EBOT_WEB_HOME='/var/www/html'
 
 EBOT_IP="${EBOT_IP:-}"
 EBOT_PORT="${EBOT_PORT:-12360}"
+EBOT_SSL="${EBOT_SSL:-false}"
 
 MYSQL_HOST="${MYSQL_HOST:-mysql}"
 MYSQL_PORT="${MYSQL_PORT:-3306}"
@@ -44,6 +45,8 @@ then
     sed -i "s|toornament_secret:.*|toornament_secret: ${TOORNAMENT_SECRET}|" $EBOT_WEB_HOME/config/app_user.yml
     sed -i "s|toornament_api_key:.*|toornament_api_key: ${TOORNAMENT_API_KEY}|" $EBOT_WEB_HOME/config/app_user.yml
     sed -i "s|toornament_plugin_key:.*|toornament_plugin_key: ${TOORNAMENT_PLUGIN_KEY}|" $EBOT_WEB_HOME/config/app_user.yml
+    
+    echo "ebot_ssl: $EBOT_SSL" >> $EBOT_WEB_HOME/config/app_user.yml
 
     touch .installed
 fi
